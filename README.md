@@ -14,7 +14,7 @@ This repository provides categorized wordlists and payloads for security assessm
 | Directory/File Path                            | Description                                                      |
 |------------------------------------------------|------------------------------------------------------------------|
 | `security-lists/`                              | Main directory for security lists                                |
-| ├── `sensitive_paths/`                         | Sensitive file and directory paths                               |
+| ├── [sensitive_paths/](https://github.com/Mehran-Seifalinia/security-lists/tree/main/sensitive_paths)                         | Sensitive file and directory paths                               |
 | │   ├── [admin_panels.txt](https://github.com/Mehran-Seifalinia/security-lists/blob/main/sensitive_paths/admin_panels.txt) | List of admin panel paths                                        |
 | │   ├── `login_pages.txt`                      | List of login page paths                                         |
 | │   ├── `api_endpoints.txt`                    | List of API endpoints                                            |

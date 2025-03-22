@@ -8,36 +8,41 @@ This repository provides categorized wordlists and payloads for security assessm
 
 ## 📁 Directory Structure
 
-```
-security-lists/
-│── sensitive_paths/            # Sensitive file and directory paths
-│   ├── admin_panels.txt
-│   ├── login_pages.txt
-│   ├── api_endpoints.txt
-│   ├── error_pages.txt
-│   ├── backups.txt
-│   ├── config_files.txt
-│── technology_fingerprints/    # Fingerprints for CMS, frameworks, and servers
-│   ├── cms/
-│   │   ├── wordpress.txt
-│   │   ├── joomla.txt
-│   │   ├── drupal.txt
-│   ├── frameworks/
-│   │   ├── django.txt
-│   │   ├── laravel.txt
-│   ├── servers/
-│   │   ├── apache.txt
-│   │   ├── nginx.txt
-│── exploit_payloads/           # Exploitation payloads
-│   ├── xss/
-│   ├── sqli/
-│   ├── other/
-│── unauthorized_access/        # Default credentials, common users & passwords
-│── fuzzing_wordlists/          # Wordlists for fuzzing directories, params, headers, etc.
-│── waf_bypass/                 # Techniques to bypass Web Application Firewalls (WAFs)
-│── misconfig_information_disclosure/ # Lists for exposed sensitive files and misconfigurations
-│── README.md                   # This file
-```
+
+# Security Lists Directory Structure
+
+| Directory/File Path                            | Description                                                      |
+|------------------------------------------------|------------------------------------------------------------------|
+| `security-lists/`                              | Main directory for security lists                                |
+| ├── `sensitive_paths/`                         | Sensitive file and directory paths                               |
+| │   ├── [admin_panels.txt](https://github.com/Mehran-Seifalinia/security-lists/blob/main/sensitive_paths/admin_panels.txt) | List of admin panel paths                                        |
+| │   ├── `login_pages.txt`                      | List of login page paths                                         |
+| │   ├── `api_endpoints.txt`                    | List of API endpoints                                            |
+| │   ├── `error_pages.txt`                      | List of error page paths                                         |
+| │   ├── `backups.txt`                          | List of backup file paths                                        |
+| │   ├── `config_files.txt`                     | List of configuration files                                      |
+| ├── `technology_fingerprints/`                 | Fingerprints for CMS, frameworks, and servers                    |
+| │   ├── `cms/`                                 | List of CMS technologies                                          |
+| │   │   ├── `wordpress.txt`                    | List of WordPress-specific fingerprints                           |
+| │   │   ├── `joomla.txt`                       | List of Joomla-specific fingerprints                             |
+| │   │   ├── `drupal.txt`                       | List of Drupal-specific fingerprints                             |
+| │   ├── `frameworks/`                          | List of frameworks                                              |
+| │   │   ├── `django.txt`                       | List of Django-specific fingerprints                             |
+| │   │   ├── `laravel.txt`                      | List of Laravel-specific fingerprints                            |
+| │   ├── `servers/`                             | List of server technologies                                       |
+| │   │   ├── `apache.txt`                       | List of Apache-specific fingerprints                             |
+| │   │   ├── `nginx.txt`                        | List of Nginx-specific fingerprints                              |
+| ├── `exploit_payloads/`                        | Exploitation payloads                                            |
+| │   ├── `xss/`                                 | XSS payloads                                                     |
+| │   ├── `sqli/`                                | SQL Injection payloads                                           |
+| │   ├── `other/`                               | Other exploit payloads                                           |
+| ├── `unauthorized_access/`                     | Default credentials, common users & passwords                    |
+| ├── `fuzzing_wordlists/`                       | Wordlists for fuzzing directories, params, headers, etc.         |
+| ├── `waf_bypass/`                              | Techniques to bypass Web Application Firewalls (WAFs)            |
+| ├── `misconfig_information_disclosure/`       | Lists for exposed sensitive files and misconfigurations          |
+| └── `README.md`                                | This file                                                       |
+
+
 
 ---
 

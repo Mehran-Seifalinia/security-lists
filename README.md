@@ -19,7 +19,7 @@ This repository provides categorized wordlists and payloads for security assessm
 | │   ├── [login_pages.txt](https://github.com/Mehran-Seifalinia/security-lists/blob/main/sensitive_paths/login_pages.txt)                     | List of login page paths                                         |
 | │   ├── [api_endpoints.txt](https://github.com/Mehran-Seifalinia/security-lists/blob/main/sensitive_paths/api_endpoints.txt)                    | List of API endpoints                                            |
 | │   ├── [error_pages.txt](https://github.com/Mehran-Seifalinia/security-lists/blob/main/sensitive_paths/error_pages.txt)                      | List of error page paths                                         |
-| │   ├── `backups.txt`                          | List of backup file paths                                        |
+| │   ├── [backups.txt](https://github.com/Mehran-Seifalinia/security-lists/blob/main/sensitive_paths/backups.txt)                          | List of backup file paths                                        |
 | │   ├── `config_files.txt`                     | List of configuration files                                      |
 | ├── `technology_fingerprints/`                 | Fingerprints for CMS, frameworks, and servers                    |
 | │   ├── `cms/`                                 | List of CMS technologies                                          |

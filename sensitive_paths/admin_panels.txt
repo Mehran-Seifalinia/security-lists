@@ -1,30 +1,24 @@
 !ADMiN!/
 !admin!/
 !admin/
-#M4n4g3m3nt#/
-#S3cr3t#/
-#admin/
-#secret#/
 $admin$/
 $uperAdmin$/
 $yst3m$/
-%252Fadmin%252F (Double Slash Encoding)
-%2561dmin/ (Double URL Encoding)
+%252Fadmin%252F 
+%2561dmin/ 
 %4dm1n%/
-%61dmin/ (URL Encoding)
+%61dmin/ 
 %C0ntr0l%/
 %admin%/
-(Pr1vate)/
-(admin)/
 *admin*/
 ++admin++/
 +\admin+/
 --admin--/
 -\admin-/
 -\admin-\-
-.%2e/admin/ (Dot Bypass)
+.%2e/admin/ 
 ...admin.../
-.\admin\ (Backslash Trick)
+.\admin\ 
 ._admin/
 .admin/
 .aws/admin/
@@ -46,13 +40,14 @@ $yst3m$/
 .temp/admin/
 .tmp/admin/
 .well-known/admin/
+/
 ==admin==/
 =\admin=\
 @admin/
 @ccessCtrl@/
 @dM1n@/
 @dmin/
-Admin~1/ (DOS 8.3 Short Name)
+Admin~1/ 
 [S3cur3]/
 [admin]/
 \/\/admin\/\/
@@ -71,7 +66,7 @@ __admin__/
 _admin/
 _admin_/backup/
 _{ADMIN}_/
-a%0Admin/ (CRLF Injection)
+a%0Admin/ 
 acceso.asp
 acceso.brf
 acceso.cfm
@@ -126,18 +121,16 @@ admin#secret#
 admin$$/
 admin$backup$
 admin%%/
-admin%00.php (Null Byte)
+admin%00.php 
 admin%00/
-admin%00/ (Null Byte)
-admin%09/ (Tab Bypass)
-admin%0a/ (Newline)
-admin%0b/ (Vertical Tab)
-admin%20/ (Space Padding)
-admin%20/ (Space)
-admin%ff/ (Overlong UTF-8)
-admin%u2215/ (Unicode Bypass)
+admin%00/ 
+admin%09/ 
+admin%0a/ 
+admin%0b/ 
+admin%20/ 
+admin%ff/ 
+admin%u2215/ 
 admin&debug=1/
-admin(1)/
 admin**/
 admin*test*/
 admin++/
@@ -765,13 +758,12 @@ admin-zone/settings
 admin...../
 admin..../
 admin.../
-admin.../ (Triple Dot)
+admin.../ 
 admin../
 admin..;/
-admin..;/ (Path Traversal)
-admin..;/ (Semi-Colon Bypass)
+admin..;/ 
 admin..\/
-admin..\/ (Backslash Trick)
+admin..\/ 
 admin././
 admin.1/
 admin.123/
@@ -856,7 +848,7 @@ admin.xyz/
 admin.yaml/
 admin.zip/
 admin/
-admin/..%2F..%2F (Path Traversal)
+admin/..%2F..%2F 
 admin/?.....=1
 admin/?....=1
 admin/?...=1

@@ -21,6 +21,7 @@ This repository provides categorized wordlists and payloads for security assessm
 | │   ├── [error_pages.txt](https://github.com/Mehran-Seifalinia/security-lists/blob/main/sensitive_paths/error_pages.txt)                      | List of error page paths                                         |
 | │   ├── [backups.txt](https://github.com/Mehran-Seifalinia/security-lists/blob/main/sensitive_paths/backups.txt)                          | List of backup file paths                                        |
 | │   ├── [config_files.txt](https://github.com/Mehran-Seifalinia/security-lists/blob/main/sensitive_paths/config_files.txt)                    | List of configuration files                                      |
+| │   ├── [database_files.txt](https://github.com/Mehran-Seifalinia/security-lists/blob/main/sensitive_paths/database_files.txt)                  | List of databases paths                                     |
 | ├── [technology_fingerprints/](https://github.com/Mehran-Seifalinia/security-lists/blob/main/technology_fingerprints/)                 | Fingerprints for CMS, frameworks, and servers                    |
 | │   ├── [cms/](https://github.com/Mehran-Seifalinia/security-lists/blob/main/technology_fingerprints/cms/)                                 | List of CMS technologies                                          |
 | │   │   ├── [wordpress.txt](https://github.com/Mehran-Seifalinia/security-lists/blob/main/technology_fingerprints/cms/wordpress.txt)                    | List of WordPress-specific fingerprints                           |

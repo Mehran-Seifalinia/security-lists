@@ -14,34 +14,35 @@ This repository provides categorized wordlists and payloads for security assessm
 | Directory/File Path                            | Description                                                      |
 |------------------------------------------------|------------------------------------------------------------------|
 | `security-lists/`                              | Main directory for security lists                                |
-| ├── [sensitive_paths/](https://github.com/Mehran-Seifalinia/security-lists/tree/main/sensitive_paths)                         | Sensitive file and directory paths                               |
-| │   ├── [admin_panels.txt](https://github.com/Mehran-Seifalinia/security-lists/blob/main/sensitive_paths/admin_panels.txt) | List of admin panel paths                                        |
-| │   ├── [login_pages.txt](https://github.com/Mehran-Seifalinia/security-lists/blob/main/sensitive_paths/login_pages.txt)                     | List of login page paths                                         |
-| │   ├── [api_endpoints.txt](https://github.com/Mehran-Seifalinia/security-lists/blob/main/sensitive_paths/api_endpoints.txt)                    | List of API endpoints                                            |
-| │   ├── [error_pages.txt](https://github.com/Mehran-Seifalinia/security-lists/blob/main/sensitive_paths/error_pages.txt)                      | List of error page paths                                         |
-| │   ├── [backups.txt](https://github.com/Mehran-Seifalinia/security-lists/blob/main/sensitive_paths/backups.txt)                          | List of backup file paths                                        |
-| │   ├── [config_files.txt](https://github.com/Mehran-Seifalinia/security-lists/blob/main/sensitive_paths/config_files.txt)                    | List of configuration files                                      |
-| │   ├── [database_files.txt](https://github.com/Mehran-Seifalinia/security-lists/blob/main/sensitive_paths/database_files.txt)                  | List of databases paths                                     |
-| ├── [technology_fingerprints/](https://github.com/Mehran-Seifalinia/security-lists/blob/main/technology_fingerprints/)                 | Fingerprints for CMS, frameworks, and servers                    |
+| ├── [sensitive_paths/](https://github.com/Mehran-Seifalinia/security-lists/tree/main/sensitive_paths)                         | Sensitive file and directory paths                                             |
+| │   ├── [admin_panels.txt](https://github.com/Mehran-Seifalinia/security-lists/blob/main/sensitive_paths/admin_panels.txt) | List of admin panel paths                                                         |
+| │   ├── [login_pages.txt](https://github.com/Mehran-Seifalinia/security-lists/blob/main/sensitive_paths/login_pages.txt)                     | List of login page paths                                        |
+| │   ├── [api_endpoints.txt](https://github.com/Mehran-Seifalinia/security-lists/blob/main/sensitive_paths/api_endpoints.txt)                    | List of API endpoints                                        |
+| │   ├── [error_pages.txt](https://github.com/Mehran-Seifalinia/security-lists/blob/main/sensitive_paths/error_pages.txt)                      | List of error page paths                                       |
+| │   ├── [backups.txt](https://github.com/Mehran-Seifalinia/security-lists/blob/main/sensitive_paths/backups.txt)                          | List of backup file paths                                          |
+| │   ├── [config_files.txt](https://github.com/Mehran-Seifalinia/security-lists/blob/main/sensitive_paths/config_files.txt)                    | List of configuration files                                    |
+| │   ├── [database_files.txt](https://github.com/Mehran-Seifalinia/security-lists/blob/main/sensitive_paths/database_files.txt)                  | List of databases paths                                      |
+| ├── [technology_fingerprints/](https://github.com/Mehran-Seifalinia/security-lists/blob/main/technology_fingerprints/)                 | Fingerprints for CMS, frameworks, and servers                         |
 | │   ├── [cms/](https://github.com/Mehran-Seifalinia/security-lists/blob/main/technology_fingerprints/cms/)                                 | List of CMS technologies                                          |
-| │   │   ├── [wordpress.txt](https://github.com/Mehran-Seifalinia/security-lists/blob/main/technology_fingerprints/cms/wordpress.txt)                    | List of WordPress-specific fingerprints                           |
+| │   │   ├── [wordpress.txt](https://github.com/Mehran-Seifalinia/security-lists/blob/main/technology_fingerprints/cms/wordpress.txt)                    | List of WordPress-specific fingerprints              |
 | │   │   ├── `joomla.txt`                       | List of Joomla-specific fingerprints                             |
 | │   │   ├── `drupal.txt`                       | List of Drupal-specific fingerprints                             |
-| │   ├── `frameworks/`                          | List of frameworks                                              |
+| │   ├── `frameworks/`                          | List of frameworks                                               |
 | │   │   ├── `django.txt`                       | List of Django-specific fingerprints                             |
 | │   │   ├── `laravel.txt`                      | List of Laravel-specific fingerprints                            |
-| │   ├── `servers/`                             | List of server technologies                                       |
+| │   ├── `servers/`                             | List of server technologies                                      |
 | │   │   ├── `apache.txt`                       | List of Apache-specific fingerprints                             |
 | │   │   ├── `nginx.txt`                        | List of Nginx-specific fingerprints                              |
 | ├── `exploit_payloads/`                        | Exploitation payloads                                            |
 | │   ├── `xss/`                                 | XSS payloads                                                     |
 | │   ├── `sqli/`                                | SQL Injection payloads                                           |
+| │   ├── `Command injection/`                   | OS command Injection payloads                                    |
 | │   ├── `other/`                               | Other exploit payloads                                           |
 | ├── `unauthorized_access/`                     | Default credentials, common users & passwords                    |
 | ├── `fuzzing_wordlists/`                       | Wordlists for fuzzing directories, params, headers, etc.         |
 | ├── `waf_bypass/`                              | Techniques to bypass Web Application Firewalls (WAFs)            |
-| ├── `misconfig_information_disclosure/`       | Lists for exposed sensitive files and misconfigurations          |
-| └── `README.md`                                | This file                                                       |
+| ├── `misconfig_information_disclosure/`        | Lists for exposed sensitive files and misconfigurations          |
+| └── `README.md`                                | This file                                                        |
 
 
 

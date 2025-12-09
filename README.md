@@ -36,7 +36,13 @@ This repository provides categorized wordlists and payloads for security assessm
 | ├── `exploit_payloads/`                        | Exploitation payloads                                            |
 | │   ├── `xss/`                                 | XSS payloads                                                     |
 | │   ├── `sqli/`                                | SQL Injection payloads                                           |
-| │   ├── `Command injection/`                   | OS command Injection payloads                                    |
+| │   ├── [Command injection/](https://github.com/Mehran-Seifalinia/security-lists/tree/main/exploit_payloads/Command%20injection)                   | OS command Injection payloads                              |
+| │   │   ├── [Basic(Linux)](https://github.com/Mehran-Seifalinia/security-lists/blob/main/exploit_payloads/Command%20injection/basic(Linux).txt)                     | Simple basic commands for Linux           |
+| │   │   ├── [Basic(Windows)](https://github.com/Mehran-Seifalinia/security-lists/blob/main/exploit_payloads/Command%20injection/Blind(Windows).txt)                   | Simple basic commands for windows       |
+| │   │   ├── [Blind(Linux)](https://github.com/Mehran-Seifalinia/security-lists/blob/main/exploit_payloads/Command%20injection/Blind(Linux).txt)                     | Blind basic commands for Linux            |
+| │   │   ├── [Blind(Windows)](https://github.com/Mehran-Seifalinia/security-lists/blob/main/exploit_payloads/Command%20injection/Blind(Windows).txt)                   | Blind basic commands for windows        |
+| │   │   ├── [OOB(Linux)](https://github.com/Mehran-Seifalinia/security-lists/blob/main/exploit_payloads/Command%20injection/OOB(Linux).txt)                       | OOB basic commands for Linux                |
+| │   │   ├── [OOB(Windows)](https://github.com/Mehran-Seifalinia/security-lists/blob/main/exploit_payloads/Command%20injection/OOB(Windows).txt)                     | OOB basic commands for windows            |
 | │   ├── `other/`                               | Other exploit payloads                                           |
 | ├── `unauthorized_access/`                     | Default credentials, common users & passwords                    |
 | ├── `fuzzing_wordlists/`                       | Wordlists for fuzzing directories, params, headers, etc.         |

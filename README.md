@@ -14,17 +14,18 @@ This repository provides categorized wordlists and payloads for security assessm
 | Directory/File Path                            | Description                                                      |
 |------------------------------------------------|------------------------------------------------------------------|
 | `security-lists/`                              | Main directory for security lists                                |
-| ├── [sensitive_paths/](https://github.com/Mehran-Seifalinia/security-lists/tree/main/sensitive_paths)                         | Sensitive file and directory paths                                             |
-| │   ├── [admin_panels.txt](https://github.com/Mehran-Seifalinia/security-lists/blob/main/sensitive_paths/admin_panels.txt) | List of admin panel paths                                                         |
-| │   ├── [login_pages.txt](https://github.com/Mehran-Seifalinia/security-lists/blob/main/sensitive_paths/login_pages.txt)                     | List of login page paths                                        |
-| │   ├── [api_endpoints.txt](https://github.com/Mehran-Seifalinia/security-lists/blob/main/sensitive_paths/api_endpoints.txt)                    | List of API endpoints                                        |
-| │   ├── [error_pages.txt](https://github.com/Mehran-Seifalinia/security-lists/blob/main/sensitive_paths/error_pages.txt)                      | List of error page paths                                       |
-| │   ├── [backups.txt](https://github.com/Mehran-Seifalinia/security-lists/blob/main/sensitive_paths/backups.txt)                          | List of backup file paths                                          |
-| │   ├── [config_files.txt](https://github.com/Mehran-Seifalinia/security-lists/blob/main/sensitive_paths/config_files.txt)                    | List of configuration files                                    |
-| │   ├── [database_files.txt](https://github.com/Mehran-Seifalinia/security-lists/blob/main/sensitive_paths/database_files.txt)                  | List of databases paths                                      |
-| ├── [technology_fingerprints/](https://github.com/Mehran-Seifalinia/security-lists/blob/main/technology_fingerprints/)                 | Fingerprints for CMS, frameworks, and servers                         |
-| │   ├── [cms/](https://github.com/Mehran-Seifalinia/security-lists/blob/main/technology_fingerprints/cms/)                                 | List of CMS technologies                                          |
-| │   │   ├── [wordpress.txt](https://github.com/Mehran-Seifalinia/security-lists/blob/main/technology_fingerprints/cms/wordpress.txt)                    | List of WordPress-specific fingerprints              |
+| ├── [sensitive_paths/](https://github.com/Mehran-Seifalinia/security-lists/tree/main/sensitive_paths)                                    | Sensitive file and directory paths                   |
+| │   ├── [admin_panels.txt](https://github.com/Mehran-Seifalinia/security-lists/blob/main/sensitive_paths/admin_panels.txt)               | List of admin panel paths                            |
+| │   ├── [login_pages.txt](https://github.com/Mehran-Seifalinia/security-lists/blob/main/sensitive_paths/login_pages.txt)                 | List of login page paths                             |
+| │   ├── [api_endpoints.txt](https://github.com/Mehran-Seifalinia/security-lists/blob/main/sensitive_paths/api_endpoints.txt)             | List of API endpoints                                |
+| │   ├── [error_pages.txt](https://github.com/Mehran-Seifalinia/security-lists/blob/main/sensitive_paths/error_pages.txt)                 | List of error page paths                             |
+| │   ├── [backups.txt](https://github.com/Mehran-Seifalinia/security-lists/blob/main/sensitive_paths/backups.txt)                         | List of backup file paths                            |
+| │   ├── [config_files.txt](https://github.com/Mehran-Seifalinia/security-lists/blob/main/sensitive_paths/config_files.txt)               | List of configuration files                          |
+| │   ├── [database_files.txt](https://github.com/Mehran-Seifalinia/security-lists/blob/main/sensitive_paths/database_files.txt)           | List of databases paths                              |
+| │   ├── [Next.js_files.txt](https://github.com/Mehran-Seifalinia/security-lists/blob/main/sensitive_paths/nextjs.txt)                    | List of Next.js paths                                |
+| ├── [technology_fingerprints/](https://github.com/Mehran-Seifalinia/security-lists/blob/main/technology_fingerprints/)                   | Fingerprints for CMS, frameworks, and servers        |
+| │   ├── [cms/](https://github.com/Mehran-Seifalinia/security-lists/blob/main/technology_fingerprints/cms/)                               | List of CMS technologies                             |
+| │   │   ├── [wordpress.txt](https://github.com/Mehran-Seifalinia/security-lists/blob/main/technology_fingerprints/cms/wordpress.txt)     | List of WordPress-specific fingerprints              |
 | │   │   ├── `joomla.txt`                       | List of Joomla-specific fingerprints                             |
 | │   │   ├── `drupal.txt`                       | List of Drupal-specific fingerprints                             |
 | │   ├── `frameworks/`                          | List of frameworks                                               |
@@ -36,13 +37,13 @@ This repository provides categorized wordlists and payloads for security assessm
 | ├── `exploit_payloads/`                        | Exploitation payloads                                            |
 | │   ├── `xss/`                                 | XSS payloads                                                     |
 | │   ├── `sqli/`                                | SQL Injection payloads                                           |
-| │   ├── [Command injection/](https://github.com/Mehran-Seifalinia/security-lists/tree/main/exploit_payloads/Command%20injection)                   | OS command Injection payloads                              |
-| │   │   ├── [Basic(Linux)](https://github.com/Mehran-Seifalinia/security-lists/blob/main/exploit_payloads/Command%20injection/basic(Linux).txt)                     | Simple basic commands for Linux           |
-| │   │   ├── [Basic(Windows)](https://github.com/Mehran-Seifalinia/security-lists/blob/main/exploit_payloads/Command%20injection/Blind(Windows).txt)                   | Simple basic commands for windows       |
-| │   │   ├── [Blind(Linux)](https://github.com/Mehran-Seifalinia/security-lists/blob/main/exploit_payloads/Command%20injection/Blind(Linux).txt)                     | Blind basic commands for Linux            |
-| │   │   ├── [Blind(Windows)](https://github.com/Mehran-Seifalinia/security-lists/blob/main/exploit_payloads/Command%20injection/Blind(Windows).txt)                   | Blind basic commands for windows        |
-| │   │   ├── [OOB(Linux)](https://github.com/Mehran-Seifalinia/security-lists/blob/main/exploit_payloads/Command%20injection/OOB(Linux).txt)                       | OOB basic commands for Linux                |
-| │   │   ├── [OOB(Windows)](https://github.com/Mehran-Seifalinia/security-lists/blob/main/exploit_payloads/Command%20injection/OOB(Windows).txt)                     | OOB basic commands for windows            |
+| │   ├── [Command injection/](https://github.com/Mehran-Seifalinia/security-lists/tree/main/exploit_payloads/Command%20injection)                        | OS command Injection payloads        |
+| │   │   ├── [Basic(Linux)](https://github.com/Mehran-Seifalinia/security-lists/blob/main/exploit_payloads/Command%20injection/basic(Linux).txt)         | Simple basic commands for Linux      |
+| │   │   ├── [Basic(Windows)](https://github.com/Mehran-Seifalinia/security-lists/blob/main/exploit_payloads/Command%20injection/Blind(Windows).txt)     | Simple basic commands for windows    |
+| │   │   ├── [Blind(Linux)](https://github.com/Mehran-Seifalinia/security-lists/blob/main/exploit_payloads/Command%20injection/Blind(Linux).txt)         | Blind basic commands for Linux       |
+| │   │   ├── [Blind(Windows)](https://github.com/Mehran-Seifalinia/security-lists/blob/main/exploit_payloads/Command%20injection/Blind(Windows).txt)     | Blind basic commands for windows     |
+| │   │   ├── [OOB(Linux)](https://github.com/Mehran-Seifalinia/security-lists/blob/main/exploit_payloads/Command%20injection/OOB(Linux).txt)             | OOB basic commands for Linux         |
+| │   │   ├── [OOB(Windows)](https://github.com/Mehran-Seifalinia/security-lists/blob/main/exploit_payloads/Command%20injection/OOB(Windows).txt)         | OOB basic commands for windows       |
 | │   ├── `other/`                               | Other exploit payloads                                           |
 | ├── `unauthorized_access/`                     | Default credentials, common users & passwords                    |
 | ├── `fuzzing_wordlists/`                       | Wordlists for fuzzing directories, params, headers, etc.         |

@@ -28,8 +28,8 @@ This repository provides categorized wordlists and payloads for security assessm
 | │   │   ├── [wordpress.txt](https://github.com/Mehran-Seifalinia/security-lists/blob/main/technology_fingerprints/cms/wordpress.txt)     | List of WordPress-specific fingerprints              |
 | │   │   ├── [joomla.txt](https://github.com/Mehran-Seifalinia/security-lists/blob/main/technology_fingerprints/cms/joomla.txt)           | List of Joomla-specific fingerprints                 |
 | │   │   ├── [drupal.txt](https://github.com/Mehran-Seifalinia/security-lists/blob/main/technology_fingerprints/cms/drupal.txt)           | List of Drupal-specific fingerprints                 |
-| │   ├── `frameworks/`                          | List of frameworks                                               |
-| │   │   ├── `django.txt`                       | List of Django-specific fingerprints                             |
+| │   ├── [frameworks/](https://github.com/Mehran-Seifalinia/security-lists/tree/main/technology_fingerprints/frameworks)                  | List of frameworks                                   |
+| │   │   ├── [django.txt](https://github.com/Mehran-Seifalinia/security-lists/blob/main/technology_fingerprints/frameworks/django.txt)    | List of Django-specific fingerprints                 |
 | │   │   ├── `laravel.txt`                      | List of Laravel-specific fingerprints                            |
 | │   ├── `servers/`                             | List of server technologies                                      |
 | │   │   ├── `apache.txt`                       | List of Apache-specific fingerprints                             |

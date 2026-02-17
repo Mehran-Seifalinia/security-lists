@@ -15,10 +15,10 @@ This repository provides categorized wordlists and payloads for security assessm
 |------------------------------------------------|------------------------------------------------------------------|
 | `security-lists/`                              | Main directory for security lists                                |
 | ├── `sensitive_paths/`                         | Sensitive file and directory paths                               |
-| │   ├── [Admin panel](https://github.com/Mehran-Seifalinia/security-lists/blob/main/sensitive_paths/admin_panels.txt)               | List of admin panel paths                            |
-| │   ├── [Login page](https://github.com/Mehran-Seifalinia/security-lists/blob/main/sensitive_paths/login_pages.txt)                 | List of login page paths                             |
-| │   ├── [API endpoint](https://github.com/Mehran-Seifalinia/security-lists/blob/main/sensitive_paths/api_endpoints.txt)             | List of API endpoints                                |
-| │   ├── [Errors](https://github.com/Mehran-Seifalinia/security-lists/blob/main/sensitive_paths/error_pages.txt)                 | List of error page paths                             |
+| │   ├── [Admin panel](https://github.com/Mehran-Seifalinia/security-lists/blob/main/sensitive_paths/admin_panels.txt)                | List of admin panel paths                            |
+| │   ├── [Login page](https://github.com/Mehran-Seifalinia/security-lists/blob/main/sensitive_paths/login_pages.txt)                  | List of login page paths                             |
+| │   ├── [API endpoint](https://github.com/Mehran-Seifalinia/security-lists/blob/main/sensitive_paths/api_endpoints.txt)              | List of API endpoints                                |
+| │   ├── [Errors](https://github.com/Mehran-Seifalinia/security-lists/blob/main/sensitive_paths/error_pages.txt)                      | List of error page paths                             |
 | │   ├── [Backups](https://github.com/Mehran-Seifalinia/security-lists/blob/main/sensitive_paths/backups.txt)                         | List of backup file paths                            |
 | │   ├── [Config files](https://github.com/Mehran-Seifalinia/security-lists/blob/main/sensitive_paths/config_files.txt)               | List of configuration files                          |
 | │   ├── [Database files](https://github.com/Mehran-Seifalinia/security-lists/blob/main/sensitive_paths/database_files.txt)           | List of databases paths                              |
@@ -30,6 +30,7 @@ This repository provides categorized wordlists and payloads for security assessm
 | │   ├── `frameworks/`                          | List of frameworks                                   |
 | │   │   ├── [Django](https://github.com/Mehran-Seifalinia/security-lists/blob/main/technology_fingerprints/frameworks/django.txt)    | List of Django-specific fingerprints                 |
 | │   │   ├── [Laravel](https://github.com/Mehran-Seifalinia/security-lists/blob/main/technology_fingerprints/frameworks/laravel.txt)  | List of Laravel-specific fingerprints                |
+| │   │   ├── [NextJS](https://github.com/Mehran-Seifalinia/security-lists/blob/main/technology_fingerprints/frameworks/nextjs.txt)    | List of Laravel-specific fingerprints                |
 | │   ├── `servers/`                             | List of server technologies                          |
 | │   │   ├── [Apache](https://github.com/Mehran-Seifalinia/security-lists/blob/main/technology_fingerprints/servers/apache.txt)       | List of Apache-specific fingerprints                 |
 | │   │   ├── [Nginx](https://github.com/Mehran-Seifalinia/security-lists/blob/main/technology_fingerprints/servers/nginx.txt)         | List of Nginx-specific fingerprints                  |

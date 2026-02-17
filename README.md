@@ -24,16 +24,17 @@ This repository provides categorized wordlists and payloads for security assessm
 | │   ├── [Database files](https://github.com/Mehran-Seifalinia/security-lists/blob/main/sensitive_paths/database_files.txt)           | List of databases paths                              |
 | ├── `technology_fingerprints/ `                | Fingerprints for CMS, frameworks, and servers        |
 | │   ├── `cms/`                                 | List of CMS technologies                             |
-| │   │   ├── [Wordpress](https://github.com/Mehran-Seifalinia/security-lists/blob/main/technology_fingerprints/cms/wordpress.txt)     | List of WordPress-specific fingerprints              |
-| │   │   ├── [Joomla](https://github.com/Mehran-Seifalinia/security-lists/blob/main/technology_fingerprints/cms/joomla.txt)           | List of Joomla-specific fingerprints                 |
-| │   │   ├── [Drupal](https://github.com/Mehran-Seifalinia/security-lists/blob/main/technology_fingerprints/cms/drupal.txt)           | List of Drupal-specific fingerprints                 |
+| │   │   ├── [Wordpress](https://github.com/Mehran-Seifalinia/security-lists/blob/main/technology_fingerprints/cms/wordpress.txt)     | List of WordPress fingerprints              |
+| │   │   ├── [Joomla](https://github.com/Mehran-Seifalinia/security-lists/blob/main/technology_fingerprints/cms/joomla.txt)           | List of Joomla fingerprints                 |
+| │   │   ├── [Drupal](https://github.com/Mehran-Seifalinia/security-lists/blob/main/technology_fingerprints/cms/drupal.txt)           | List of Drupal fingerprints                 |
 | │   ├── `frameworks/`                          | List of frameworks                                   |
 | │   │   ├── [Django](https://github.com/Mehran-Seifalinia/security-lists/blob/main/technology_fingerprints/frameworks/django.txt)    | List of Django- fingerprints                         |
 | │   │   ├── [Laravel](https://github.com/Mehran-Seifalinia/security-lists/blob/main/technology_fingerprints/frameworks/laravel.txt)  | List of Laravel fingerprints                         |
 | │   │   ├── [NextJS](https://github.com/Mehran-Seifalinia/security-lists/blob/main/technology_fingerprints/frameworks/nextjs.txt)    | List of NextJS fingerprints                          |
 | │   ├── `servers/`                             | List of server technologies                          |
-| │   │   ├── [Apache](https://github.com/Mehran-Seifalinia/security-lists/blob/main/technology_fingerprints/servers/apache.txt)       | List of Apache-specific fingerprints                 |
-| │   │   ├── [Nginx](https://github.com/Mehran-Seifalinia/security-lists/blob/main/technology_fingerprints/servers/nginx.txt)         | List of Nginx-specific fingerprints                  |
+| │   │   ├── [Apache](https://github.com/Mehran-Seifalinia/security-lists/blob/main/technology_fingerprints/servers/apache.txt)       | List of Apache fingerprints                 |
+| │   │   ├── [Nginx](https://github.com/Mehran-Seifalinia/security-lists/blob/main/technology_fingerprints/servers/nginx.txt)         | List of Nginx fingerprints                  |
+| │   │   ├── [Jetty](https://github.com/Mehran-Seifalinia/security-lists/blob/main/technology_fingerprints/servers/jetty.txt)         | List of Jetty fingerprints                  |
 | ├── `exploit_payloads/`                        | Exploitation payloads                 |
 | │   ├── `xss/`                                 | XSS payloads                          |
 | │   │   ├── [Basic](https://github.com/Mehran-Seifalinia/security-lists/blob/main/exploit_payloads/xss/basic.txt)                        | Simple basic XSS payloads                        |

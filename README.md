@@ -28,9 +28,9 @@ This repository provides categorized wordlists and payloads for security assessm
 | │   │   ├── [Joomla](https://github.com/Mehran-Seifalinia/security-lists/blob/main/technology_fingerprints/cms/joomla.txt)           | List of Joomla-specific fingerprints                 |
 | │   │   ├── [Drupal](https://github.com/Mehran-Seifalinia/security-lists/blob/main/technology_fingerprints/cms/drupal.txt)           | List of Drupal-specific fingerprints                 |
 | │   ├── `frameworks/`                          | List of frameworks                                   |
-| │   │   ├── [Django](https://github.com/Mehran-Seifalinia/security-lists/blob/main/technology_fingerprints/frameworks/django.txt)    | List of Django-specific fingerprints                 |
-| │   │   ├── [Laravel](https://github.com/Mehran-Seifalinia/security-lists/blob/main/technology_fingerprints/frameworks/laravel.txt)  | List of Laravel-specific fingerprints                |
-| │   │   ├── [NextJS](https://github.com/Mehran-Seifalinia/security-lists/blob/main/technology_fingerprints/frameworks/nextjs.txt)    | List of Laravel-specific fingerprints                |
+| │   │   ├── [Django](https://github.com/Mehran-Seifalinia/security-lists/blob/main/technology_fingerprints/frameworks/django.txt)    | List of Django- fingerprints                         |
+| │   │   ├── [Laravel](https://github.com/Mehran-Seifalinia/security-lists/blob/main/technology_fingerprints/frameworks/laravel.txt)  | List of Laravel fingerprints                         |
+| │   │   ├── [NextJS](https://github.com/Mehran-Seifalinia/security-lists/blob/main/technology_fingerprints/frameworks/nextjs.txt)    | List of NextJS fingerprints                          |
 | │   ├── `servers/`                             | List of server technologies                          |
 | │   │   ├── [Apache](https://github.com/Mehran-Seifalinia/security-lists/blob/main/technology_fingerprints/servers/apache.txt)       | List of Apache-specific fingerprints                 |
 | │   │   ├── [Nginx](https://github.com/Mehran-Seifalinia/security-lists/blob/main/technology_fingerprints/servers/nginx.txt)         | List of Nginx-specific fingerprints                  |

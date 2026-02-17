@@ -32,8 +32,8 @@ This repository provides categorized wordlists and payloads for security assessm
 | │   │   ├── [django.txt](https://github.com/Mehran-Seifalinia/security-lists/blob/main/technology_fingerprints/frameworks/django.txt)    | List of Django-specific fingerprints                 |
 | │   │   ├── [laravel.txt](https://github.com/Mehran-Seifalinia/security-lists/blob/main/technology_fingerprints/frameworks/laravel.txt)  | List of Laravel-specific fingerprints                |
 | │   ├── [servers/](https://github.com/Mehran-Seifalinia/security-lists/tree/main/technology_fingerprints/servers)                        | List of server technologies                          |
-| │   │   ├── [apache.txt](https://github.com/Mehran-Seifalinia/security-lists/blob/main/technology_fingerprints/servers/apache.txt)       | List of Apache-specific fingerprints      m          |
-| │   │   ├── `nginx.txt`                        | List of Nginx-specific fingerprints                              |
+| │   │   ├── [apache.txt](https://github.com/Mehran-Seifalinia/security-lists/blob/main/technology_fingerprints/servers/apache.txt)       | List of Apache-specific fingerprints                 |
+| │   │   ├── [nginx.txt](https://github.com/Mehran-Seifalinia/security-lists/blob/main/technology_fingerprints/servers/nginx.txt)         | List of Nginx-specific fingerprints                  |
 | ├── `exploit_payloads/`                        | Exploitation payloads                                            |
 | │   ├── `xss/`                                 | XSS payloads                                                     |
 | │   ├── `sqli/`                                | SQL Injection payloads                                           |
